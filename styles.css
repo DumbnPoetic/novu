@@ -84,6 +84,39 @@ nav a {
 }
 
 
+.now-playing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.music-icon {
+    font-size: 22px;
+    color: #6c12ad;
+}
+
+.song-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 4px;
+}
+
+.playing-label {
+    font-size: 11px;
+    color: #888;
+    letter-spacing: 2px;
+}
+
+#song-title {
+    font-size: 14px;
+    color: #c9c9c9;
+}
+
+
+
 
 #about {
     min-height: 70vh;

@@ -39,7 +39,17 @@
                 <a href="#about" class="about-button">
                     More About me
                 </a>
+
+                            <div class="now-playing">
+                <span class="music-icon">🎵</span>
+
+                <div class="song-info">
+                    <span class="playing-label">Now Playing</span>
+                    <span id="song-title">Loading...</span>
+                </div>
             </div>
+            </div>
+
         </section>
 
         <section id="about">
@@ -73,7 +83,7 @@
                 </div>
 
                 <div class="socials">
-                    <a href="https://github.com/DumbnPoetic" class="social-box">
+                    <a href="https://github.com/DumbnPoetic" target="_blank" class="social-box">
                         <img src="github.svg" alt="">
                         <div class="social-info">
                             <h3>GitHub</h3>
@@ -81,7 +91,7 @@
                         </div>
                     </a>
 
-                    <a href="https://steamcommunity.com/id/HePlaysGuitarWhileISingLouReed//" class="social-box">
+                    <a href="https://steamcommunity.com/id/HePlaysGuitarWhileISingLouReed//" target="_blank" class="social-box">
                         <img src="steam.svg" alt="">
                         <div class="social-info">
                             <h3>Steam</h3>
@@ -89,7 +99,7 @@
                         </div>
                     </a>
 
-                       <a href="https://open.spotify.com/user/nibikc7tcmh2ec9ho67je7clb?si=adb78c7819de4305" class="social-box">
+                       <a href="https://open.spotify.com/user/nibikc7tcmh2ec9ho67je7clb?si=adb78c7819de4305" target="_blank" class="social-box">
                         <img src="spotify.svg" alt="">
                         <div class="social-info">
                             <h3>Spotify</h3>
@@ -146,8 +156,8 @@
         </section>
 
         <section id="music">
-
-        </section>
+            <audio id="background-music" autoplay loop preload="auto"></audio>      
+          </section>
 
     </main>
 
