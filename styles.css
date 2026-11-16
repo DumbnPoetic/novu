@@ -84,33 +84,85 @@ nav a {
 }
 
 
+
 #about {
     min-height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
     padding: 60px 40px;
 }
 
+.about-layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+
 .about-content {
-    max-width: 600px;
-    text-align: center;
+    flex: 0 1 480px;
+    min-width: 0;
 }
 
 .about-content h2 {
-    font-size: 42px;
+    font-size: 38px;
     font-weight: 700;
-    color: white;
-    line-height: 1.2;
+    text-align: center;
+    margin-top: 0;
     margin-bottom: 30px;
 }
 
 .about-content p {
-    max-width: 370px;
-    font-size: 20px;
+    font-size: 19px;
     color: rgb(212, 208, 208);
-    line-height: 1.75;
-    margin-bottom: 35px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+
+.socials {
+    flex: 1;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.social-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    padding: 25px;
+    background-color: #1f2937;
+    border: 1px solid #1f2937;
+
+    color: white;
+    text-decoration: none;
+
+    transition: background-color 0.2s ease;
+}
+
+.social-box:hover {
+    background-color: #6c12ad;
+}
+
+.social-box img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.social-info h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.social-info span {
+    font-size: 11px;
+    color: #a1a1aa;
+    letter-spacing: 2px;
 }
 
 
